@@ -1,0 +1,164 @@
+[
+  {
+    "text": "hi i need pizza",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "food_feature",
+        "start": 10,
+        "end": 15,
+        "value": "pizza",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hi i need pizza",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "food_feature",
+        "start": 10,
+        "end": 15,
+        "value": "pizza",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yes i need pizza",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "food_feature",
+        "start": 11,
+        "end": 16,
+        "value": "pizza",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want pizza",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "food_feature",
+        "start": 7,
+        "end": 12,
+        "value": "pizza",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "thick crust",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pizza_type",
+        "start": 6,
+        "end": 11,
+        "value": "crust",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need cheese pizza",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "toppings",
+        "start": 7,
+        "end": 13,
+        "value": "cheese",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "food_feature",
+        "start": 14,
+        "end": 19,
+        "value": "pizza",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need cheese pizza with tomatto toppings",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "cheese",
+        "entity": "pizza_type"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "value": "pizza",
+        "entity": "food_feature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toppings",
+        "start": 7,
+        "end": 13,
+        "value": "cheese",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "food_feature",
+        "start": 14,
+        "end": 19,
+        "value": "pizza",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thick crustpizza",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "Thick crust",
+        "entity": "pizza_type"
+      },
+      {
+        "start": 11,
+        "end": 16,
+        "value": "pizza",
+        "entity": "food_feature"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cheese burstpizza",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "cheese burst",
+        "entity": "pizza_type"
+      },
+      {
+        "start": 12,
+        "end": 17,
+        "value": "pizza",
+        "entity": "food_feature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toppings",
+        "start": 0,
+        "end": 6,
+        "value": "cheese",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

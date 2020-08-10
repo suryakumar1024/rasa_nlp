@@ -1,0 +1,38 @@
+{
+  "toppings": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 24
+  },
+  "food_feature": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 15
+  },
+  "pizza_type": {
+    "precision": 0.9629629629629629,
+    "recall": 0.8387096774193549,
+    "f1-score": 0.896551724137931,
+    "support": 31
+  },
+  "micro avg": {
+    "precision": 0.8783783783783784,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.9027777777777779,
+    "support": 70
+  },
+  "macro avg": {
+    "precision": 0.8672839506172839,
+    "recall": 0.946236559139785,
+    "f1-score": 0.8982903506230078,
+    "support": 70
+  },
+  "weighted avg": {
+    "precision": 0.8919312169312168,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.9034068799933765,
+    "support": 70
+  }
+}

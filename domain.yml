@@ -1,0 +1,82 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- pizza_ordering
+- thankyou
+- pizza_type_entry
+- toppings_entry
+entities:
+- pizza_type
+- food_feature
+- toppings
+slots:
+  food_feature:
+    type: unfeaturized
+  pizza_type:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  toppings:
+    type: list
+responses:
+  utter_greet:
+  - text: Hey! Order your expected taste pizza!.
+  utter_thankyou:
+  - text: thank you
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_ask_pizza_type:
+  - buttons:
+    - payload: thick crust
+      title: Thick crust
+    - payload: thin crust
+      title: Thin crust
+    - payload: cheese burst
+      title: Cheese burst
+    text: Select which type of pizza you have
+  utter_select_toppings:
+  - buttons:
+    - payload: tomato
+      title: Tomato
+    - payload: onion
+      title: Onion
+    - payload: capsicum
+      title: Capsicum
+    - payload: extra cheese
+      title: Extra cheese
+    text: Select any toppings from the options given below
+  utter_ask_toppings:
+  - text: Select any toppings 1. tomato 2. capsicum 3. extra cheese
+  utter_order_placed:
+  - text: Your Order placed successfully.
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_ask_toppings
+- utter_ask_pizza_type
+- utter_order_placed
+- utter_select_toppings
+- utter_thankyou
+forms:
+- pizza_form

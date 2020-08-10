@@ -1,0 +1,58 @@
+[
+  {
+    "text": "i need Cheese burst pizza",
+    "intent": "pizza_ordering",
+    "intent_prediction": {
+      "name": "pizza_type_entry",
+      "confidence": 0.4313337504863739
+    }
+  },
+  {
+    "text": "i need to order pizza",
+    "intent": "pizza_type_entry",
+    "intent_prediction": {
+      "name": "pizza_ordering",
+      "confidence": 0.7246492505073547
+    }
+  },
+  {
+    "text": "i need Cheese pizza",
+    "intent": "pizza_type_entry",
+    "intent_prediction": {
+      "name": "pizza_ordering",
+      "confidence": 0.6937986612319946
+    }
+  },
+  {
+    "text": "i need Thick crust pizza",
+    "intent": "pizza_type_entry",
+    "intent_prediction": {
+      "name": "pizza_ordering",
+      "confidence": 0.6459120512008667
+    }
+  },
+  {
+    "text": "i need Thick pizza",
+    "intent": "pizza_type_entry",
+    "intent_prediction": {
+      "name": "pizza_ordering",
+      "confidence": 0.6056199669837952
+    }
+  },
+  {
+    "text": "i need Thin crust pizza",
+    "intent": "pizza_type_entry",
+    "intent_prediction": {
+      "name": "pizza_ordering",
+      "confidence": 0.6291387677192688
+    }
+  },
+  {
+    "text": "i need Thin pizza",
+    "intent": "pizza_type_entry",
+    "intent_prediction": {
+      "name": "pizza_ordering",
+      "confidence": 0.6041985154151917
+    }
+  }
+]
