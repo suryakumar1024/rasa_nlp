@@ -1,0 +1,6 @@
+.idea/*
+*.pyc
+*.db
+*.db-shm
+*.db-wal
+*.tar.gz
