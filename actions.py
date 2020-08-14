@@ -46,7 +46,7 @@ class ActionClimateWorld(FormAction):
         result = requests.get("http://api.openweathermap.org/data/2.5/weather",
                               params={
                                   "q": location,
-                                  "appid": "eb1499dfb19342dd317b6b1a34a929de"
+                                  "appid": "xxxxxxxxx"
                               })
         # https://www.google.com/maps/@10.8091781,78.2885026,7z
         result = result.json()
